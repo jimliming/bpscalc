@@ -1,0 +1,18 @@
+#! /usr/local/bin/python3
+
+import sys
+
+# Colors
+# https://stackoverflow.com/questions/287871/print-in-terminal-with-colors/21786287#21786287
+# 
+if __name__ == "__main__":
+
+    bytes = int(sys.argv[1])
+    #kbps
+    print('\x1b[1;32;40m' + "{:.2f}kbps".format(bytes/1024) + '\x1b[0m')
+    #mbps
+    print('\x1b[1;36;40m' + "{:.2f}mbps".format((bytes/1024)/1024) + '\x1b[0m')
+    #gbps
+    print('\x1b[1;33;40m' + "{:.2f}gbps".format(((bytes/1024)/1024)/1024) + '\x1b[0m')
+
+
