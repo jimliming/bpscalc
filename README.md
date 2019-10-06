@@ -1,4 +1,4 @@
-bpscalc <int of bits per second>
+bpscalc \<int of bits per second\>
 
 Example:
 
