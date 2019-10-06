@@ -2,6 +2,10 @@ bpscalc <int of bits per second>
 
 Example:
 
-1
+bpscalc 10240000
 
-2
+10000.00kbps
+
+9.77mbps
+
+0.01gbps
